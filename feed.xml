@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+>
+	<channel>
+		<title>David Laubersheimer</title>
+		<description>Here are some of the programms i wrote that were actually good enough to be published
+</description>		
+		<sy:updatePeriod>daily</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+		<link>https://laubersheimer.eu</link>
+		<atom:link href="https://laubersheimer.eu/feed.xml" rel="self" type="application/rss+xml" />
+		<lastBuildDate>Wed, 18 Aug 2021 00:00:00 +0200</lastBuildDate>
+		
+		
+			<item>
+				<title>Using A 10 Euro Adapter To Emulate A Nexdock</title>
+				
+				
+					<description>&lt;p&gt;The &lt;a href=&quot;https://nexdock.com/&quot;&gt;Nexdock&lt;/a&gt; is a Laptop like dock that you can plug your phone into and have a desktop like experience without needing to buy a complete Laptop. The Nextdock and similar devices feature a HDMI or USB-C input that you can use to connect any device to it. If you connect your phone via USB-C the Nexdock charges the device, acts as a monitor and acts as a keyboard and mouse.&lt;/p&gt;
+</description>
+				
+				<pubDate>Wed, 18 Aug 2021 00:00:00 +0200</pubDate>
+				<link>https://laubersheimer.eu/2021/08/18/using-a-10-euro-adapter-to-emulate-a-nexdock.html</link>
+				<guid isPermaLink="true">https://laubersheimer.eu/2021/08/18/using-a-10-euro-adapter-to-emulate-a-nexdock.html</guid>
+			</item>
+		
+			<item>
+				<title>Good Programms For Convertible Laptops</title>
+				
+				
+					<description>&lt;p&gt;This is just an incomplete,unordered list of linux software that I think works reasonably well on touch enabled devices with some of the config you might need to do. If you need some further recouces I reccomend the &lt;a href=&quot;https://wiki.postmarketos.org&quot;&gt;postmarketOS wiki&lt;/a&gt; and specifically the &lt;a href=&quot;https://wiki.postmarketos.org/wiki/Applications_by_category&quot;&gt;apps page&lt;/a&gt; because they specifically recommend software that has good touch support. One keyword (other than touch) that might help you during your search is convergent, meaning the software is ment for phones as well as desktop use and touch should work.&lt;/p&gt;
+&lt;h2 id=&quot;file-manager&quot;&gt;File manager&lt;/h2&gt;
+&lt;h4 id=&quot;index-file-manager&quot;&gt;Index File manager&lt;/h4&gt;
+</description>
+				
+				<pubDate>Thu, 12 Aug 2021 00:00:00 +0200</pubDate>
+				<link>https://laubersheimer.eu/2021/08/12/good-programms-for-convertible-laptops.html</link>
+				<guid isPermaLink="true">https://laubersheimer.eu/2021/08/12/good-programms-for-convertible-laptops.html</guid>
+			</item>
+		
+			<item>
+				<title>Using Lisgd And I3 On A Convertible Laptop</title>
+				
+				
+					<description>&lt;p&gt;I3 is a good Window manager for laptops because it does not rely on your touchpad. When I got a new convertible laptop I still wanted to use I3 because it is so powerful if the convertible is in Laptop mode. There was only one problem: I3 has absolutly no touch support.&lt;br /&gt;
+Using a &lt;a href=&quot;https://github.com/ssmolkin1/i3touchmenu&quot;&gt;touch friendly config&lt;/a&gt; for polybar which implements a launcher as well as control buttons for closing or moving windows makes I3 somewhat more usable, but it still feels somewhat clumsy. Even &lt;a href=&quot;https://github.com/Laubersheini/dotfiles/tree/main/polybar&quot;&gt;my polybar config&lt;/a&gt; was still to slow. The solution to this is enabling touch-gestures for frequently used functions.&lt;/p&gt;
+</description>
+				
+				<pubDate>Sun, 08 Aug 2021 00:00:00 +0200</pubDate>
+				<link>https://laubersheimer.eu/2021/08/08/using-lisgd-and-i3-on-a-convertible-laptop.html</link>
+				<guid isPermaLink="true">https://laubersheimer.eu/2021/08/08/using-lisgd-and-i3-on-a-convertible-laptop.html</guid>
+			</item>
+		
+	</channel>
+</rss>
