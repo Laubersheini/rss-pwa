@@ -373,8 +373,7 @@
       }
     ],
     "start_url": "./index.html",
-    "display": "minimal-ui",
-    "orientation":  "landscape",
+    "display": "standalone",
     "theme_color": "#393e46",
     "background_color": "#393e46"
 }

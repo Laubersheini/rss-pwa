@@ -7,15 +7,15 @@
 	<link rel="manifest" href="./rss.webmanifest">
 	<link rel="apple-touch-icon" sizes="256x256" href="./icons/firefox/firefox-general-256-256.png">
 	<title>RSS Feed</title>
-	<script src='rss.js' defer></script>
+	<script src='./rss.js' defer></script>
 	<script>
 		if ('serviceWorker' in navigator) {
-			//navigator.serviceWorker.register('./service-worker.js'); //for testing this should be commented out so the reloading does take the cached content
+			navigator.serviceWorker.register('./service-worker.js'); //for testing this should be commented out so the reloading does take the cached content
 		}
 
 	</script>
-	<link rel='stylesheet' href='config.css'>
-	<link rel='stylesheet' href='style.css'>
+	<link rel='stylesheet' href='./config.css'>
+	<link rel='stylesheet' href='./style.css'>
 </head>
 
 <body>
