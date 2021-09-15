@@ -16,16 +16,14 @@ fetch('urls.json').then((res) => {
 			/* Fetch the RSS Feed */
 			fetch(url).then((res) => {
 				res.text().then((xmlTxt) => {
-					console.log(xmlTxt);
+					//console.log(xmlTxt);
 					/* Parse the RSS Feed and display the content */
 					try {
 						let doc = DOMPARSER(xmlTxt, "text/xml")
-						console.log(doc);
 						//let heading = document.createElement('h1')
 						//heading.textContent = url.hostname
 						//frag.appendChild(heading)
 						doc.querySelectorAll('item').forEach((item) => {
-							console.log(item);
 							let temp = document.importNode(document.querySelector('template').content, true);
 							let i = item.querySelector.bind(item)
 							let t = temp.querySelector.bind(temp)

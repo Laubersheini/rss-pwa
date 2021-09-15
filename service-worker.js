@@ -5,18 +5,27 @@ var cacheName = "rss-cache-v.1.0.0" //change this if anything has changed on the
 
 //this implements a chache first approach for everything the Website fetches
 self.addEventListener('fetch', (e) => {
-  e.respondWith(
-    caches.match(e.request).then((r) => {
-      //console.log('[Service Worker] Fetching resource: '+e.request.url);
-      return r || fetch(e.request).then((response) => {
-        return caches.open(cacheName).then((cache) => {
-          console.log('[Service Worker] Caching new resource: ' + e.request.url);
-          cache.put(e.request, response.clone());
-          return response;
+  let url = e.request.url + "";
+  if (url.includes("xml")|| url.includes("rss")) {
+    e.respondWith(
+      fetch(e.request)
+    )
+  } else {
+
+    e.respondWith(
+      caches.match(e.request).then((r) => {
+        //console.log('[Service Worker] Fetching resource: '+e.request.url);
+        return r || fetch(e.request).then((response) => {
+          return caches.open(cacheName).then((cache) => {
+            console.log('[Service Worker] Caching new resource: ' + e.request.url);
+            cache.put(e.request, response.clone());
+            return response;
+          });
         });
-      });
-    })
-  );
+      })
+    );
+
+  }
 });
 
 
