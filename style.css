@@ -37,7 +37,7 @@ p{
 	margin: 0;
 }
 output h1 {
-	background-color: orangered;
+	background-color: var(--background-color);
 	text-indent: 5px;
 	color: var(--text);
 	font-size: 18pt;
